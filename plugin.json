@@ -1,0 +1,16 @@
+{
+  "pluginName": "端口占用进程关闭",
+  "description": "查询端口占用的程序并关闭",
+  "version": "0.0.1",
+  "author": "Sir丶雨轩",
+  "homepage": "https://www.yuxuan66.com",
+  "logo": "logo.jpg",
+  "preload": "preload.js",
+  "features": [
+    {
+      "code": "kill",
+      "explain": "kill 8080",
+      "cmds":["kill"]
+    }
+  ]
+}
